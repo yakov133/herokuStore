@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-item active{
+    background-color: grey;
+}
+div div div img{
+    width: 30vh;
+    height: 50vh;
+}
+.space{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.black{
+    background-color: black;
+    color: lightgray;
+}
+section div,section div a{
+    text-align: center;
+    color: white;
+}
+.grey{
+    background-color: rgb(137, 137, 137);
+}
+section div a img{
+    width: 90vh;
+    height: 60vh;  
+}
+
+#bg{
+    background-image: url("https://i.ibb.co/Wc2svR9/macbook.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.sayUpdatedClass{
+    text-align: center;
+    background-color:lightsteelblue;
+}
+section {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    height: 100vh;
+    }
+@media (max-width: 768px) {
+    section div a img{
+        width: 50vh;
+        height: 25vh;
+    }
+    #bg{
+        height: 50vh;
+    }
+    
+  }
+
+@media (max-width: 408px) {
+    section div a img{
+        width: 30vh;
+        height: 20vh;
+    }
+  }
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input,
+label {
+    margin: .4rem 0;
+}
+ 
+

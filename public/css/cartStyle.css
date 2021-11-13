@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-item active{
+    background-color: grey;
+}
+div div div img{
+    width: 30vh;
+    height: 50vh;
+}
+.space{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+td img{
+    width: 5vh;
+}
+tr:hover{
+    transition: 1s;
+    background-color: coral;
+    opacity:0.8;
+}
+#total{
+    margin-top: 35vh;
+    font-size: 20px;
+    text-align: center;
+    background-color: cornflowerblue    ;
+}
